@@ -1,0 +1,123 @@
+.Chart__container{
+    display: flex;
+    margin: 1.5% 12% 0 34%;
+    border: 1px solid transparent;
+    height: 40%;
+    background: var(--color-bg);
+    border-radius: 50px;
+    width: 25vw;
+}
+
+.data__container{
+    margin-left: 10%;
+    height: 400;
+    width: 400;
+}
+.score__button{
+    margin-left: 2px;
+    width:10rem;
+    height: 3rem;
+    border: 3px solid var(--color-primary-variant);
+    border-radius: 7px;
+    font-size: 1.2em;
+    color: white;
+}
+
+.upperThreat{
+    display: grid;
+    grid-template-columns: 40% 40% ;
+    gap: 10%;
+}
+.lowerThreat{
+    display: grid;
+    grid-template-columns: 40% 40%  ;
+    gap: 10%;
+}
+
+.ThreatAgent, .Thechnical__Impact, .Vulnerability, .Buisness__impact{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 20px;
+}
+
+.btn___container{
+    margin-top: 2rem;
+    margin-left: 40%;
+}
+
+select{
+    margin-top: 3px;
+    height: 3rem;
+    width: 30rem;
+    border: 2px solid var(--color-primary-variant);
+    border-radius: 10px;
+    font-size: 17px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+    border: 2px solid var(--color-primary);
+
+}
+
+
+
+
+@media screen and (max-width:1024px) {
+    .container{
+        width: var(--container-width-md);
+    }
+    .upperThreat{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lowerThreat{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ThreatAgent, .Thechnical__Impact, .Vulnerability, .Buisness__impact{
+        margin-left: 6rem;
+    }
+
+    .btn___container{
+        margin-left: 16rem;
+    }
+    
+  }
+  /* Media queries for Phones */
+  
+  @media screen and (max-width:600px) {
+    .container{
+        width: var(--container-width-sm);
+    }
+    .upperThreat{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lowerThreat{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ThreatAgent, .Thechnical__Impact, .Vulnerability, .Buisness__impact{
+        font-size: 1em;
+        margin-left: 2rem;
+    }
+
+    select{
+        width: 17rem;
+        font-size: 1em;
+    }
+    
+    .btn___container{
+        margin-left: 5rem;
+    }
+    
+  }

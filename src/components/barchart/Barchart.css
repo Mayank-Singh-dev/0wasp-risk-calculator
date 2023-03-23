@@ -1,0 +1,15 @@
+.Chart__container{
+    display: flex;
+    margin: 1.5% 12% 0 34%;
+    border: 1px solid transparent;
+    height: 40%;
+    background: var(--color-bg);
+    border-radius: 50px;
+    width: 25vw;
+}
+
+.data__container{
+    margin-left: 10%;
+    height: 400;
+    width: 400;
+}

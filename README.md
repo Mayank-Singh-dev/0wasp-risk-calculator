@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# OWASP Risk Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is based on the guidelines and format provided by the OWASP Risk Assessment Calculator. The calculator is designed to help assess the risk of a security incident occurring based on a set of threat agents, vulnerabilities, technical impacts, and business impacts.
 
-## Available Scripts
+## Usage
 
-In the project directory, you can run:
+In this project, the OWASP risk calculator is implemented in a chart using the React Chart.js library. The chart is manipulated according to the calculated risk factor, which is based on the input values of the four risk factors.
 
-### `npm start`
+To use the risk calculator chart, simply input the values for the four risk factors: threat agent, vulnerability factor, technical impact, and business impact. The chart will automatically adjust based on the calculated risk factor, providing a visual representation of the level of risk.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To use this project, clone the repository and run `npm install` to install the required dependencies.
 
-### `npm test`
+To install the OWASP Risk Calculator, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository from GitHub: git clone https://github.com/Mayank-Singh-dev/owasp-risk-calculator
+2. Install the required dependencies: npm install
+3. Start the application: npm start
+4. The application will then be available at http://localhost:3000.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the project, use the command `npm start`. This will start a development server at `http://localhost:3000`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you would like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. Any contributions are welcome!
 
-### `npm run eject`
+Contributions to the OWASP Risk Calculator are always welcome. To contribute, please follow these guidelines:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Fork the repository
+2. Create a new branch for your feature or bug fix: git checkout -b my-new-feature
+3. Make your changes and commit them: git commit -am 'Add some feature'
+4. Push to your branch: git push origin my-new-feature
+5. Create a pull request to the main repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
