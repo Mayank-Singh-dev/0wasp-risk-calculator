@@ -2,6 +2,10 @@
 
 This project is based on the guidelines and format provided by the OWASP Risk Assessment Calculator. The calculator is designed to help assess the risk of a security incident occurring based on a set of threat agents, vulnerabilities, technical impacts, and business impacts.
 
+
+![image](https://user-images.githubusercontent.com/114851381/227312769-bd88413e-716c-4c0a-bb28-52e8297997ba.png)
+
+
 ## Usage
 
 In this project, the OWASP risk calculator is implemented in a chart using the React Chart.js library. The chart is manipulated according to the calculated risk factor, which is based on the input values of the four risk factors.
