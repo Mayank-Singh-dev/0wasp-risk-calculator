@@ -27,6 +27,8 @@ To install the OWASP Risk Calculator, follow these steps:
 
 To run the project, use the command `npm start`. This will start a development server at `http://localhost:3000`.
 
+Test `https://owasp-risk-calculator.netlify.app/`
+
 ## Contributing
 
 If you would like to contribute to this project, feel free to fork the repository and submit a pull request with your changes. Any contributions are welcome!
